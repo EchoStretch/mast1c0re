@@ -1,6 +1,6 @@
 #pragma once
 
-#if (defined(PS4) && PS4) && defined(FIRMWARE) && FIRMWARE >= 1300 && FIRMWARE <= 1302
+#if (defined(PS4) && PS4) && defined(FIRMWARE) && FIRMWARE >= 1300 && FIRMWARE <= 1304
     #define LIB_KERNEL_SYSC_S00 0x460
     #define LIB_KERNEL_RFORK_THREAD 0x470
     #define LIB_KERNEL_SIGSETJMP 0x4c0
@@ -1156,3 +1156,4 @@
     #define LIB_KERNEL_SCE_KERNEL_GET_PROCESS_TYPE_OF_BUDGET 0x36780
     #define LIB_KERNEL_SCE_KERNEL_ADD_RESOURCE 0x367b0
 #endif
+
