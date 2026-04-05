@@ -33,6 +33,8 @@
         #include <offsets/ps/libkernel/ps4/12.00_12.52.hpp>
     #elif defined(FIRMWARE) && FIRMWARE >= 1300 && FIRMWARE <= 1304
         #include <offsets/ps/libkernel/ps4/13.00_13.04.hpp>
+    #elif defined(FIRMWARE) && FIRMWARE == 1350
+        #include <offsets/ps/libkernel/ps4/1350.hpp>
     #endif
 
     #if defined(LIB_KERNEL_SYS_RET_ERROR) && defined(FIRMWARE) && FIRMWARE < 1001
